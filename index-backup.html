@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archivum Data CZ | High-Quality Czech AI Training Data</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'><path d='M12 2L2 7L12 12L22 7L12 2Z' stroke='%233b82f6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><path d='M2 17L12 22L22 17' stroke='%233b82f6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><path d='M2 12L12 17L22 12' stroke='%2360a5fa' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container logo-container">
+      <a href="#" class="brand">
+        <!-- Abstract Data/Archival Cube SVG Logo -->
+        <svg class="logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 17L12 22L22 17" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2 12L12 17L22 12" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">archivum<span class="accent">data.cz</span></span>
+      </a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <span class="badge">Low-Resource Language Optimization</span>
+      <h1>Powering AI with Curation-Ready <span class="gradient-text">Czech Datasets</span></h1>
+      <p>Czech language data remains severely underrepresented in foundational LLMs. We source, clean, and structure high-integrity, copyright-safe corpora for enterprise AI pre-training and RAG applications.</p>
+      <div class="hero-actions">
+        <a href="#datasets" class="btn-primary">Explore Datasets</a>
+        <a href="#contact" class="btn-secondary">Request Data Sample</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="datasets" class="datasets">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Corpora</h2>
+        <p>Commercial-ready, copyright-safe datasets for research and enterprise AI modeling.</p>
+      </div>
+
+      <div class="grid">
+        
+        <div class="card">
+          <div class="card-tag">Legal AI</div>
+          <h3>Czech Legal Corpus</h3>
+          <p>A pristine collection of current-text Czech and historical Czechoslovak legislation dating back to 1918. Extracted from official e-Sbírka open data and fully structured for LLMs.</p>
+          <ul>
+            <li><strong>Coverage:</strong> ~46,000 acts (Zákon, Vyhláška, etc.) down to §/Čl. provision level</li>
+            <li><strong>Quality:</strong> Pre-deduplicated, current-text consolidated, dual-stage language tagged (CS/SK)</li>
+            <li><strong>Licensing:</strong> EU Open Data Directive, Copyright free</li>
+            <li><strong>Format:</strong> JSONL (includes character counts, dates, and amendment metadata)</li>
+            <li><strong>Source:</strong> eSbirka</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="card-tag">Literature & Language</div>
+          <h3>Czech Literary Corpus</h3>
+          <p>Curated set of public domain Czech books derived from the Pleias initiative. Ideal for expanding general Czech vocabulary, grammar, and long-form prose understanding.</p>
+          <ul>
+            <li><strong>Coverage:</strong> Comprehensive historical prose catalog</li>
+            <li><strong>Quality:</strong> Standardized typography, OCR clean-up</li>
+            <li><strong>Licensing:</strong> Public Domain, Copyright free</li>
+            <li><strong>Format:</strong> JSONL</li>
+            <li><strong>Source:</strong> PleIAs</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="request-section">
+    <div class="container">
+      <div class="request-card">
+        <div class="request-content">
+          <span class="card-tag">Enterprise Inquiries</span>
+          <h2>Request Data Sample</h2>
+          <p>Before purchasing, test our data quality on your own infrastructure. Contact us to receive sample subsets, review licensing, or discuss enterprise pricing for full corpora access.</p>
+          
+          <div class="contact-options">
+            <div class="contact-item">
+              <span class="contact-icon">📄</span>
+              <div>
+                <strong>Data Samples</strong>
+                <p>Request 1,000+ row JSONL sample files to test parsing and quality.</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💼</span>
+              <div>
+                <strong>Pricing & Licensing</strong>
+                <p>Inquire about one-time purchases, updates, or commercial rights.</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💬</span>
+              <div>
+                <strong>Technical Questions</strong>
+                <p>Ask about our filtering pipelines, deduplication, or schema specs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="request-cta">
+          <a href="mailto:info@archivumdata.cz?subject=Sample%20%26%20Pricing%20Inquiry" class="btn-primary btn-large">
+            Contact Us
+          </a>
+          <span class="cta-subtext">Direct response within 24 hours</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h2>About Archivum Data CZ</h2>
+      <p>Operating from the Netherlands with deep operational roots in the Czech Republic, Archivum Data CZ bridges the gap between low-resource Central European languages and cutting-edge language modeling.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-left">
+        <p>&copy; 2026 Archivum Data CZ. All rights reserved.</p>
+        <p class="footer-meta">Registered in the Netherlands &bull; KvK: 42151235</p>
+      </div>
+      <div class="footer-right">
+        <p>Contact: <a href="mailto:info@archivumdata.cz">info@archivumdata.cz</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
